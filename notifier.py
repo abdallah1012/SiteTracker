@@ -45,10 +45,10 @@ class Scrapper:
         # creates SMTP session
         self.tags = [Tag("div", "class", "regi-list")]
         self.exceptionTags = [[Tag("span", "class", "sec-head")]]
-        self.fromMail = "warpeace999@gmail.com"
-        self.password = "jkrobwbqmzboqdnx"
+        self.fromMail = ""
+        self.password = ""
         self.toMail = self.fromMail #sending to myself
-        self.url = "https://holland2stay.com/residences.html?available_to_book=179,336&city=90"
+        self.url = ""
         self.tryCounter = 0
         self.sleepTimer = 60
 
